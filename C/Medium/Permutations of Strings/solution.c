@@ -15,6 +15,7 @@ int next_permutation(int n, char **s)
 	* Modify array s to its next permutation
 	*/
     int k, i, l;
+    printf("%d",k);
     k = i = l = 0;
     
     for (i = n-2; i >= 0; i--){
